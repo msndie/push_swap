@@ -17,24 +17,32 @@
 - rrr (reverse rotate a and b at the same time)
 
 Пример использования:
-- $>./push_swap 2 1 3 6 5 8
-- sa
-- pb
-- pb
-- pb
-- sa
-- pa
-- pa
-- pa
-- $>./push_swap 0 one 2 3
-- Error
-- $>
+```
+$>./push_swap 2 1 3 6 5 8
+sa
+pb
+pb
+pb
+sa
+pa
+pa
+pa
+```
+```
+$>./push_swap 0 one 2 3
+Error
+$>
+```
 
 В репозитории находится 2 чекера, для Linux и для Mac. Они используются следующим образом:
-- $>ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
-- 6
-- $>ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_OS $ARG
-- OK
-- $>
+```
+$>ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
+6
+```
+```
+$>ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_OS $ARG
+OK
+$>
+```
 
 При вызове make также скомпилируется чекер написанный мной, его можно использовать точно также как показано выше.
